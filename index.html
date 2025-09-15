@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assets über Tiny-CDN</title>
+
+  <!-- Optional: Verbindungsaufbau zum CDN beschleunigen -->
+  <link rel="preconnect" href="https://tiny-cdn.lorenz-hosting.com/" crossorigin />
+
+  <!-- SEO / Social -->
+  <meta name="description" content="Diese Seite nutzt ein Tiny-CDN für statische Assets." />
+  <meta property="og:title" content="Assets über Tiny-CDN" />
+  <meta property="og:description" content="Statische Dateien werden über unser Tiny-CDN bereitgestellt." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root { --fg:#0f172a; --muted:#475569; --bg:#f8fafc; --card:#ffffff; }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial;
+      color:var(--fg); background:linear-gradient(180deg, var(--bg), #eef2f7);
+      display:grid; place-items:center; padding:2rem;
+    }
+    .card{
+      background:var(--card); border:1px solid #e5e7eb; border-radius:20px; padding:2rem 2.25rem;
+      max-width:720px; width:100%; box-shadow:0 10px 25px rgba(15,23,42,.06);
+      text-align:center;
+    }
+    h1{margin:0 0 .5rem; font-size:1.75rem}
+    p{margin:.5rem 0; color:var(--muted)}
+    code{background:#f1f5f9; padding:.15rem .35rem; border-radius:.4rem}
+    a.button{
+      display:inline-block; margin-top:1rem; padding:.65rem 1rem; border-radius:12px;
+      border:1px solid #e2e8f0; text-decoration:none;
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-label="Hinweis auf Tiny-CDN">
+    <h1>Statische Assets über Tiny-CDN</h1>
+    <p>
+      Diese GitHub-Pages-Seite dient als Einstiegspunkt. Dateien (Bilder, CSS, JS) werden
+      über unser <strong>Tiny-CDN</strong> ausgeliefert.
+    </p>
+    <p>
+      CDN-Basis-URL: <code>https://tiny-cdn.lorenz-hosting.com/</code>
+    </p>
+    <p>
+      👉 <a class="button" href="https://tiny-cdn.lorenz-hosting.com/"
+            rel="noopener" target="_blank">Zum Tiny-CDN wechseln</a>
+    </p>
+
+    <noscript>
+      <p><strong>Hinweis:</strong> Für die beste Performance aktiviere bitte JavaScript.</p>
+    </noscript>
+
+  </main>
+</body>
+</html>
